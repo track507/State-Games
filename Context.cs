@@ -13,17 +13,13 @@ class Context {
         currentState = state;
         currentState.SetContext(this);
     }
-    // First game
+    // Start Game
     public void Request1() {
-        currentState.Handle1();
+        currentState.Play();
     }
-    // Second game
+    // 
     public void Request2() {
-        currentState.Handle2();
-    }
-    // Third game
-    public void Request3() {
-        currentState.Handle3();
+        currentState.NextGame();
     }
 }
 
