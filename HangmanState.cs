@@ -2,7 +2,7 @@
 
 class HangmanState : State
 {
-    int wrong = 0; //Set atributes for the numebr of wrong guesses and the word to guess
+    int wrong = 0; //Set atributes for the number of wrong guesses and the word to guess
     string answer = "nirvana";
     string word = "*******";
     
@@ -70,6 +70,6 @@ class HangmanState : State
     public override void NextGame()
     {
         Console.WriteLine("\nTransitioning to the next game\n");
-        //currentContext.TransitionTo(new );
+        currentContext.TransitionTo(new );
     }
 }
