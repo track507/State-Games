@@ -17,7 +17,7 @@ class Context {
     public void Request1() {
         currentState.Play();
     }
-    // 
+    // Next game
     public void Request2() {
         currentState.NextGame();
     }
