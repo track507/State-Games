@@ -69,7 +69,7 @@ class HangmanState : State
 
     public override void NextGame()
     {
-        Console.WriteLine("\nTransitioning to the next game\n");
+        //Console.WriteLine("\nTransitioning to the next game\n");
         currentContext.TransitionTo(new BlackJack());
     }
 }
